@@ -70,3 +70,6 @@ build/*
 !/sound/**/*custom*/**/*.aiff
 !/assets/**/*custom*.bin
 !/assets/**/*custom*/**/*.bin
+!/lib/*.a
+!/lib/*.o
+!/lib/HVQM/*.o

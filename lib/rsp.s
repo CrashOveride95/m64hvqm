@@ -42,6 +42,18 @@ glabel rspAspMainStart
     .incbin "lib/PR/audio/aspMain.bin"
 glabel rspAspMainEnd
 
+/* HVQM2 Bins */
+
+.balign 16
+glabel hvqm2sp1TextStart
+    .incbin "lib/PR/hvqm/HVQM2.bin"
+glabel hvqm2sp1TextEnd
+
+.balign 16
+glabel hvqm2sp1DataStart
+    .incbin "lib/PR/hvqm/HVQM2_data.bin"
+glabel hvqm2sp1DataEnd
+
 /*
  * LESS COMMON MICROCODES
  * These are setup to be loaded by G_LOAD_UCODE

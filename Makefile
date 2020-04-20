@@ -12,9 +12,9 @@ default: all
 # Version of the game to build
 VERSION ?= us
 # Graphics microcode used
-GRUCODE ?= f3d_old
+GRUCODE ?= f3dzex
 # If COMPARE is 1, check the output sha1sum when building 'all'
-COMPARE ?= 1
+COMPARE ?= 0
 # If NON_MATCHING is 1, define the NON_MATCHING and AVOID_UB macros when building (recommended)
 NON_MATCHING ?= 0
 # Build for the N64 (turn this off for ports)

@@ -90,6 +90,8 @@ SECTIONS
       BUILD_DIR/asm/entry.o(.text);
       BUILD_DIR/src/game/crash_screen.o(.text);
       BUILD_DIR/src/game/main.o(.text);
+      lib/HVQM/hvqm2decSP1.o(.text);
+      lib/HVQM/adpcmdec.o(.text);
       BUILD_DIR/src/game/game_init.o(.text);
       BUILD_DIR/src/game/sound_init.o(.text);
 #ifdef VERSION_SH
@@ -378,6 +380,8 @@ SECTIONS
       /* data */
       BUILD_DIR/src/game/crash_screen.o(.data*);
       BUILD_DIR/src/game/main.o(.data*);
+      lib/HVQM/hvqm2decSP1.o(.data*);
+      lib/HVQM/adpcmdec.o(.data*);
       BUILD_DIR/src/game/game_init.o(.data*);
       BUILD_DIR/src/game/sound_init.o(.data*);
       BUILD_DIR/src/game/level_update.o(.data*);
@@ -477,6 +481,8 @@ SECTIONS
       /* rodata */
       BUILD_DIR/src/game/crash_screen.o(.rodata*);
       BUILD_DIR/src/game/main.o(.rodata*);
+      lib/HVQM/hvqm2decSP1.o(.rodata*);
+      lib/HVQM/adpcmdec.o(.rodata*);
       BUILD_DIR/src/game/game_init.o(.rodata*);
       BUILD_DIR/src/game/sound_init.o(.rodata*);
       BUILD_DIR/src/game/level_update.o(.rodata*);
@@ -572,6 +578,8 @@ SECTIONS
    {
       BUILD_DIR/src/game/crash_screen.o(.bss*);
       BUILD_DIR/src/game/main.o(.bss*);
+      lib/HVQM/hvqm2decSP1.o(.bss*);
+      lib/HVQM/adpcmdec.o(.bss*);
       BUILD_DIR/src/game/game_init.o(.bss*);
       BUILD_DIR/src/game/sound_init.o(.bss*);
       BUILD_DIR/src/game/level_update.o(.bss*);
