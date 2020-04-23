@@ -10,7 +10,7 @@
 #define __HVQM2DEC_H__
 
 #include <ultra64.h>
-#include <HVQM2File.h>
+#include "HVQM2File.h"
 
 typedef struct {
   u8 nbase;

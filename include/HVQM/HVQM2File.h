@@ -10,7 +10,7 @@
 #ifndef __HVQM2FILE_H__
 #define __HVQM2FILE_H__
 
-#include <HVQmd.h>
+#include "HVQmd.h"
 
 /*
  * HVQM2Header : HVQM2 file header

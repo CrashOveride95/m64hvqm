@@ -1021,9 +1021,41 @@ SECTIONS
    }
    END_SEG(assets)
 
+   BEGIN_SEG(INTRO_HVQM, __romPos)
+   {
+      movies/MANVID.o(.data);
+   }
+   END_SEG(INTRO_HVQM)
+
+   BEGIN_SEG(HEY_HVQM, __romPos)
+   {
+      movies/HEYVID.o(.data);
+   }
+   END_SEG(HEY_HVQM)
+
+   BEGIN_SEG(HAVE_HVQM, __romPos)
+   {
+      movies/HAVEVID.o(.data);
+   }
+   END_SEG(HAVE_HVQM)
+
+   BEGIN_SEG(PIZZA_HVQM, __romPos)
+   {
+      movies/PIZVID.o(.data);
+   }
+   END_SEG(PIZZA_HVQM)
+
+   BEGIN_SEG(TVGAME_HVQM, __romPos)
+   {
+      movies/TVGAMEVID.o(.data);
+   }
+   END_SEG(TVGAME_HVQM)
+   
+
    /* Discard everything not specifically mentioned above. */
    /DISCARD/ :
    {
       *(*);
    }
 }
+
